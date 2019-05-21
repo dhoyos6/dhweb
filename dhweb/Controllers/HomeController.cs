@@ -18,7 +18,7 @@ namespace dhweb.Controllers
                 LastAcessDate = DateTime.Now
             };
 
-            return View();
+            return View(myData);
         }
 
         public ActionResult FAQ()
